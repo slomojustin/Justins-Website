@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- (Part 2: CSS, Question 0) Font import here. If you don't know what this is yet, don't worry, we cover this in the Part 2 of the homework.-->
+    <title>Justin William's Website</title>
+</head>
+<body>
+    <div id=container>
+        <!-- Question 0. Add an image here (a picture of you!) Make sure it's a square. --> <img src="IMG_0598.jpg" alt = "Photo of Me" width="200" height = "200">
+        <h1>Justin Williams</h1>
+        <!-- Question 1. Add headings to each of these sections! Make this heading smaller than your name.--> <h2>Welcome to my website!</h2>
+        <section id="education">
+            <h2> Education </h2>
+        I am currently pursuring a <b><span style="color: rgb(210, 34, 18)">Electrical Engineering and Computer Science Degree</span> </b> at the <b><span style="color: rgb(210, 34, 18)"> University of California, Berkeley.</b>
+            My relevant coursework includes <em>Calculus 1, Calculus 2, Data Structures, Structure and Interpretation of Computer Programs, Physics for Engineers,
+            Discrete Math for Computer Science, and Electronics class for beginners.</em>   <!-- Question 2. Fill this in with details about your degree, major(s), and coursework. Use at least 1 header tag (h3, b, or em). -->
+        </section>
+        <section id="experience">
+            <h2> Experience </h2>
+            <div class = "experience-wrapper"> <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
+                <div class="experience-list-item">
+                    <h3>Head Lifeguard - City of Antioch</h3>
+                    <ul>
+                        <li>Encouraged a team environment among a staff of 60 members through team building events</li><!-- Question 3b. Fill this in with some bulletpoints on things you did. -->
+                        <li>Maximized customer service satisfaction through the welcoming of over 600 patrons daily</li>
+                        <li>Planned and facilitated weekly in-service training to maintain the staff’s American Red Cross Certification skills</li>
+                    </ul>
+                </div>
+                <div class = "experience-list-item">
+                    <h3> Deer Valley Robotics Club</h3>
+                    <ul>
+                        <li>Worked in a team environment to build a robot that faced challenges given by the competition organization</li>
+                        <li>Developed and implemented innovative solutions to mechanical issues that rose when building the robot</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Question 3c. Create a div that contains all the experience-list-item divs named "experience-wrapper"! You'll need this later. -->
+        </section>
+        <section id="projects">
+            <h2> Projects </h2>
+            <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
+            <div class = "project-wrapper">
+                <div class="project-list-item">
+                    <h3>Care-ma | <em>Flutter, Dart, Flask</em></h3>
+                    <ul>
+                        <li>
+                            Created an Android app where users can add NPL processed positive messages to custom photos
+                        </li>
+                        <li>
+                            Allowed users to share to the photos to a community platform where other users can downvote or upvote
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-list-item">
+                    <h3>NGordnet | <em>Java, Regex</em></h3>
+                    <ul>
+                        <li>
+                            Devised a browser based tool for exploring the history of word usage in English texts.
+                        </li>
+                        <li>
+                            Wrote a series of Java packages that used various data structures to plot the popularity of a word or group of words
+                            within a specific time period.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
+        </section>
+        <section id="contact">
+            <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
+            <h2>You can contact me <a href = "https://www.linkedin.com/in/jw322/">here!</a></h2>
+        </section>
+    </div>
+</body>
+</html>
